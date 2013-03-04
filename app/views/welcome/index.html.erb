@@ -1,0 +1,35 @@
+<div class="hero-unit">
+  <h2>Hola! I am Shaizeen!</h2>
+  <p>I am a PhD student at University of Michigan, Ann Arbor. I work with Prof. <a href="http://web.eecs.umich.edu/~nsatish/">Satish Narayanasamy</a>. 
+  My under-graduate alma mater is College of Engineering, Pune, India. 
+  <br /><br />
+  My primary research interests are parallel computer architecture and parallel computing. The focus of my research is on designing 
+  efficient parallel architectures which are intuitive to programmers and to come up with abstractions that make
+    parallel computing accessible to majority of programmers at a low complexity cost.</p>
+  <p>
+    
+  </p>
+</div>
+
+<% @posts.each_slice(2) do |project| %>
+    <div class="row">
+      <div class="span0.5"> </div>
+      <div class="span4">
+      	<div class="media-body">
+	      <% if project[0] %>
+	      <h4 class="media-heading"><%= link_to project[0].heading, post_path(project[0]) %></h4>
+	      <%= truncate(project[0].content.html_safe, length: 80) %>
+	      <% end %>
+	 	</div><br />
+	  </div>
+
+      <div class="span4">
+  		<div class="media-body">
+  		  <% if project[1] %>
+	      <h4 class="media-heading"><%= link_to project[1].heading, post_path(project[1]) %></h4>
+	      <%= truncate(project[1].content.html_safe, length: 80) %>
+	      <% end %>
+	 	</div><br />
+      </div>
+    </div>
+<% end %>
