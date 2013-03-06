@@ -2,10 +2,7 @@
 cropped_zi.png: cropped_zi-f63013df462cdf36f5e0ef6c2de16deb.png
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
 application.js: application-043b4953b10cce92df465ff1779b23f5.js
-application.css: application-578e9cfd670aaa0f19a21c452b54270e.css
-bootstrap-wysihtml5.js: bootstrap-wysihtml5-97ecf23b553227b91377f959e5ec139b.js
-bootstrap-wysihtml5.css: bootstrap-wysihtml5-76ccd182f0d0a0c3a608134be2a3b54d.css
-bootstrap-wysihtml5/wysiwyg-color.css: bootstrap-wysihtml5/wysiwyg-color-1d85e8d5e3376375b5c20c9680350cda.css
+application.css: application-231cc53283de55d92059ce5342043005.css
 fontawesome-webfont.eot: fontawesome-webfont-7cf1b0de49e2f8672c9ad6d9e382115f.eot
 fontawesome-webfont.svg: fontawesome-webfont-4d19fdd70a080778557b652cb4868557.svg
 fontawesome-webfont.ttf: fontawesome-webfont-1e29be0bb354c9f664cbca7df9a966d8.ttf
