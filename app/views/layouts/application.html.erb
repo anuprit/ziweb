@@ -21,8 +21,6 @@
         <div class="nav-collapse">
           <ul class="nav">
             <li><%= link_to "Projects", posts_path %></li>
-            <li><%= link_to "Publications", '/publications' %></li>
-            <li><%= link_to "Links", '/links' %></li>
             <% if current_admin %>
               <li><%= link_to "Log out", destroy_admin_session_path, :method=>:delete %></li>
             <% else %>
@@ -43,10 +41,14 @@
           <%= image_tag("cropped_zi.png") %>
           <div class="caption">
             <h3>Shaizeen Aga</h3>
+            a PhD student at University of Michigan, Ann Arbor
+            <hr>
             <h5>shaizeen@umich.edu</h5>
  4844 BBB, 2260 Hayward, <br />
 University of Michigan,Ann Arbor,<br />
-MI,USA 48109-2121.  <br />
+MI,USA 48109-2121.  <br /><br />
+<li><a href="http://shaizeen.wordpress.com/">Blog</a></li>
+<li><a href="http:///">Curriculum Vitae</a></li>
           </div>
 
         </div>
