@@ -18,7 +18,7 @@
       	<div class="media-body">
 	      <% if project[0] %>
 	      <h4 class="media-heading"><%= link_to project[0].heading, post_path(project[0]) %></h4>
-	      <%= truncate(project[0].content, length: 80).html_safe %>
+	      <%= truncate(project[0].content, length: 80) %>
 	      <% end %>
 	 	</div><br />
 	  </div>
@@ -27,7 +27,7 @@
   		<div class="media-body">
   		  <% if project[1] %>
 	      <h4 class="media-heading"><%= link_to project[1].heading, post_path(project[1]) %></h4>
-	      <%= truncate(project[1].content, length: 80).html_safe %>
+	      <%= truncate(project[1].content, length: 80) %>
 	      <% end %>
 	 	</div><br />
       </div>
