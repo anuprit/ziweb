@@ -33,3 +33,26 @@
       </div>
     </div>
 <% end %>
+
+<h4>Recent News</h4>
+<hr>
+
+<% @minis.each_slice(2) do |mini| %>
+    <div class="row-fluid">
+      <div class="span6">
+        <div class="media-body">
+        <% if mini[0] %>
+        <%= truncate(mini[0].content, length: 80) %>
+        <% end %>
+    </div><br />
+    </div>
+
+      <div class="span6">
+      <div class="media-body">
+        <% if mini[1] %>
+        <%= truncate(mini[1].content, length: 80) %>
+        <% end %>
+    </div><br />
+      </div>
+    </div>
+<% end %>
