@@ -22,6 +22,7 @@
         <div class="nav-collapse">
           <ul class="nav">
             <li><%= link_to "Projects", posts_path %></li>
+            <li><%= link_to "Misc", minis_path %></li>
             <% if current_admin %>
               <li><%= link_to "Log out", destroy_admin_session_path, :method=>:delete %></li>
             <% else %>
@@ -52,11 +53,14 @@ MI,USA 48109-2121.  <br /><br />
 <li><a href="http://shaizeen.wordpress.com/">Blog</a></li>
 <li><a href="http:///">Curriculum Vitae</a></li>
           </div>
+                  <hr>
+        <h3>Recent News</h3>
+
 
         </div>
-
       </div>
-      
+
+     
 
     </div>
 
@@ -66,7 +70,9 @@ MI,USA 48109-2121.  <br /><br />
    <div class="row-fluid">
       <div class="footer">
         <hr>
+        <p style="text-align:center;">
         Copyright &copy;  2013
+        </p>
       </div>
     </div>
 </div>

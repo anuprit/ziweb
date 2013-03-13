@@ -1,4 +1,6 @@
 Ziweb::Application.routes.draw do
+  resources :minis
+
   devise_for :admins
 
   resources :posts
