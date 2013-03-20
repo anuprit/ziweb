@@ -21,7 +21,7 @@
     <% else %>
       <% @minis.each do |mini| %>
         <tr>
-          <td><%= mini.content %></td>
+          <td><%= mini.content %><br><small><%= mini.created_at.strftime("at %I:%M%p on %m/%d/%Y") %></small</td>
         </tr>
       <% end %>
     <% end %>
